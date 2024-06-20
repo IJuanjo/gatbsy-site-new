@@ -16,7 +16,7 @@ const config: GatsbyConfig = {
       "path": "./src/images/"
     },
     __key: "images"
-  }, `gatsby-plugin-gatsby-cloud`]
+  }, `gatsby-plugin-gatsby-cloud`, `gatsby-plugin-netlify`]
 };
 
 export default config;
