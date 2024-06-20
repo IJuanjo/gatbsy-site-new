@@ -16,7 +16,7 @@ const config: GatsbyConfig = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  }, `gatsby-plugin-gatsby-cloud`]
 };
 
 export default config;
