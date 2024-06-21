@@ -1,5 +1,7 @@
-import path from "path";
-import channels from "./data/pages.json";
+
+const path = require("path")
+
+const channels = require("./data/pages.json")
 
 const listSections = [
   {
