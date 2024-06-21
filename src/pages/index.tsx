@@ -7,10 +7,19 @@ const IndexPage: React.FC<PageProps> = () => {
     <div>
       <h1>TEST</h1>
       <Link to="/about">About</Link>
+      <br />
+      <Link to="/about2">About 2</Link>
+      <br />
+
     </div>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => {
+  return <>
+    <title>Home Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </>
+}
